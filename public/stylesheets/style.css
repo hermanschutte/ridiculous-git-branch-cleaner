@@ -1,0 +1,31 @@
+body
+{
+    padding-top: 60px;
+    background: url(../img/nycskyline.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;`
+    background-size: cover;
+}
+
+.search-title
+{
+    font-weight: 900;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.search-container
+{
+    margin-top: 150px;
+}
+
+.well
+{
+    background-color: rgba(245,245,245,0.9);
+}
+
+.input-xxxlarge
+{
+    width: 650px;
+}

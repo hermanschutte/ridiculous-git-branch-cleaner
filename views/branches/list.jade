@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+    section
+        div.row
+            div.span12.well
+                if (branches == null)
+                    center
+                        h1 This is not the repo you are looking for.
+                else
+                    each branch in branches
+                        if branch !== ''
+                            div.alert.alert-info
+                                a.close.branch-delete(data-branch=branch,data-dismiss='alert',href='javascript:void(0)') x
+                                | #{branch}
+

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    section
+        div.search-container
+            div.row
+                div.span12
+                    form.well.form-inline(action='/branches',method='get')
+                        label.control-label.search-title(for='folder') Repo path
+                        &nbsp;
+                        &nbsp;
+                        input#path.input-xxxlarge(name='path',type='text')
+                        &nbsp;
+                        button#getBranches.btn.btn-primary(type='submit') Get Branches
